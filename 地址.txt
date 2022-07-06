@@ -1,0 +1,1 @@
+https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfMAUDE/results.cfm?start_search=1&productcode=JJE&productproblem=&patientproblem=&devicename=&modelNumber=&reportNumber=&manufacturer=&brandname=&eventtype=&reportdatefrom=05%2F01%2F2022&reportdateto=06%2F10%2F2022&pagenum=100
