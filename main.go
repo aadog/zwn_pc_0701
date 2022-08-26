@@ -2,14 +2,20 @@
 package main
 
 import (
-    "github.com/ying32/govcl/vcl"
+	"github.com/ying32/govcl/vcl"
 )
 
 func main() {
-    vcl.Application.SetScaled(true)
-    vcl.Application.SetTitle("project1")
-    vcl.Application.Initialize()
-    vcl.Application.SetMainFormOnTaskBar(true)
-    vcl.Application.CreateForm(&Form1)
-    vcl.Application.Run()
+	//设置工程缩放
+	vcl.Application.SetScaled(true)
+	//设置工程窗口标题
+	vcl.Application.SetTitle("project1")
+	//初始化工程
+	vcl.Application.Initialize()
+	//设置任务栏显示
+	vcl.Application.SetMainFormOnTaskBar(true)
+	//创建窗口
+	vcl.Application.CreateForm(&Form1)
+	//运行工程
+	vcl.Application.Run()
 }

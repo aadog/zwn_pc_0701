@@ -1,0 +1,20 @@
+## www.accessdata.fda.gov网站自动数据抓取软件
+### 程序采用golang开发内核,delphi开发界面
+### 编译方法:
+```
+1.安装 [golang 1.19+](https://go.dev/)
+2.运行 编译.bat
+3.出现 zwn_pc_0701.exe即为编译成功文件
+```
+
+ui目录为程序界面文件,使用delphi开发
+defaultRes_windows_*.syso 为windows需要的资源文件
+Form1.go 为第一个窗口数据结构
+Form1Impl.go 为第一个窗口
+go.mod 为golang 第三方库管理文件
+main.go 为程序入口
+main.go.1 为实现中测试文件
+README 程序自身介绍
+vendor 目录为第三方库所在目录
+编译.bat 为编译程序使用的bat脚本
+zwn_pc_0701.exe 为编译出来的二进制文件
